@@ -56,8 +56,8 @@ export default function Deck() {
 
       <main className="deck-stage" ref={stageRef}>
         <div className={`slide-anim dir-${dir}`} key={index}>
-          <div className="slide">
             {slide.watermark && <div className="slide-watermark">{slide.watermark}</div>}
+          <div className="slide">
             <SlideRenderer slide={slide} />
           </div>
         </div>

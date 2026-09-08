@@ -23,22 +23,20 @@ export const slides = [
 
   {
     type: "pipeline",
-    watermark: "SOURCE",
     label: "What is Open Source",
     eyebrow: "The Basics",
     title: "What Is Open Source?",
-    lede: "Open source means a project's source code — the files a programmer actually writes — is posted publicly, so anyone can inspect exactly how it was built.",
+    lede: "Open source means the actual code behind a piece of software is public, so anyone can look at it, learn from it, or improve it — instead of it being locked away inside one company. People all over the world work on the same project together, for free, and anyone can fix bugs or add features by submitting their changes for review. Big things you already use — Linux, Chrome's engine, VS Code, React — are all built this way.",
     steps: [
       { icon: "code", title: "Source Code", desc: "What a developer writes" },
       { icon: "cpu", title: "Compiler", desc: "Translates it to machine instructions" },
       { icon: "zap", title: "Executable", desc: "The program you actually run" },
     ],
-    callout: "Open source means Step 1 — the source code — is public for everyone to see.",
+    callout: "it is the only place where a first-year student and a principal engineer at a big company work on the exact same code, side by side.",
   },
 
   {
     type: "twocol-compare",
-    watermark: "PUBLIC",
     label: "What is Open Source",
     eyebrow: "Two Common Mix-Ups",
     title: "Open vs. Closed — and Open ≠ Free",
@@ -69,7 +67,6 @@ export const slides = [
 
   {
     type: "perspectives",
-    watermark: "BOTH",
     label: "Two Perspectives",
     eyebrow: "Two Sides, One System",
     title: "Why It Matters, From Both Sides",
@@ -95,7 +92,6 @@ export const slides = [
 
   {
     type: "rules",
-    watermark: "HIRED",
     label: "Getting Hired",
     eyebrow: "The Big Shift",
     title: "Open Source is the",
@@ -110,7 +106,6 @@ export const slides = [
 
   {
     type: "events",
-    watermark: "2026",
     label: "Events",
     eyebrow: "Mark Your Calendar",
     title: "Open Source Events You'll Take Part In",
@@ -135,7 +130,6 @@ export const slides = [
 
   {
     type: "tracks",
-    watermark: "TRACK",
     label: "The Two Tracks",
     eyebrow: "Pick Your Pace",
     title: "Regular Track vs. Fast Track",
@@ -151,7 +145,6 @@ export const slides = [
     },
     colB: {
       title: "Fast Track",
-      watermark: "STACK",
       icon: "zap",
       points: [
         "Compressed pace — multiple stacks per quarter",
@@ -164,7 +157,6 @@ export const slides = [
 
   {
     type: "tech",
-    watermark: "STACK",
     label: "Technologies",
     eyebrow: "Tools of the Trade",
     title: "What You'll Learn",
@@ -182,7 +174,6 @@ export const slides = [
 
   {
     type: "timeline",
-    watermark: "ROADMAP",
     label: "Learning Roadmap",
     eyebrow: "Two Paces, One Destination",
     title: "Your Learning Roadmap, at a Glance",
@@ -197,7 +188,6 @@ export const slides = [
 
   {
     type: "projects",
-    watermark: "BUILD",
     label: "Projects",
     eyebrow: "Where You'll Contribute",
     title: "Projects You'll Work On",
@@ -212,7 +202,6 @@ export const slides = [
 
   {
     type: "grading",
-    watermark: "POINTS",
     label: "Grading",
     eyebrow: "How You're Scored",
     title: "Grading Schema",
@@ -228,7 +217,6 @@ export const slides = [
 
   {
     type: "nextsteps",
-    watermark: "NEXT",
     label: "Next Steps",
     eyebrow: "Before Next Session",
     title: "Your Next Steps",
@@ -243,10 +231,9 @@ export const slides = [
 
 
 
-  
+
   {
     type: "terms",
-    watermark: "REPO",
     label: "Key Terms",
     eyebrow: "Speak the Language",
     title: "Key Terms & Vocabulary",
@@ -279,7 +266,6 @@ export const slides = [
 
   {
     type: "steps",
-    watermark: "README",
     label: "The Contribution Workflow",
     eyebrow: "The Contribution Workflow",
     title: "How to Navigate an Unfamiliar Repository",
