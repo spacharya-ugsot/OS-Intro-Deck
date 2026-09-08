@@ -45,9 +45,9 @@ export const slides = [
       title: "Open Source",
       icon: "gitbranch",
       points: [
-        "Source code is public and inspectable",
+        "Source code is public and accessible",
         "Community can report bugs and submit fixes",
-        "Anyone can fork it and build on it",
+        "Anyone can fork it, clone it and build on it",
         "Examples: Linux, VS Code, React",
       ],
     },
@@ -128,32 +128,32 @@ export const slides = [
     ],
   },
 
-  {
-    type: "tracks",
-    label: "The Two Tracks",
-    eyebrow: "Pick Your Pace",
-    title: "Regular Track vs. Fast Track",
-    colA: {
-      title: "Regular Track",
-      icon: "clock",
-      points: [
-        "One skill focus per month — steady, sustainable depth",
-        "Room to fully digest Git, HTML/CSS, Python before moving on",
-        "Reaches React & MySQL by April\u2013May",
-        "Best if: this is your first serious tech commitment",
-      ],
-    },
-    colB: {
-      title: "Fast Track",
-      icon: "zap",
-      points: [
-        "Compressed pace — multiple stacks per quarter",
-        "Adds FastAPI, JS, MySQL, Node, Express, MongoDB, Next.js, Cloud",
-        "Positions you for GSoC drafting as early as January",
-        "Best if: you already code and want maximum exposure fast",
-      ],
-    },
-  },
+  // {
+  //   type: "tracks",
+  //   label: "The Two Tracks",
+  //   eyebrow: "Pick Your Pace",
+  //   title: "Regular Track vs. Fast Track",
+  //   colA: {
+  //     title: "Regular Track",
+  //     icon: "clock",
+  //     points: [
+  //       "One skill focus per month — steady, sustainable depth",
+  //       "Room to fully digest Git, HTML/CSS, Python before moving on",
+  //       "Reaches React & MySQL by April\u2013May",
+  //       "Best if: this is your first serious tech commitment",
+  //     ],
+  //   },
+  //   colB: {
+  //     title: "Fast Track",
+  //     icon: "zap",
+  //     points: [
+  //       "Compressed pace — multiple stacks per quarter",
+  //       "Adds FastAPI, JS, MySQL, Node, Express, MongoDB, Next.js, Cloud",
+  //       "Positions you for GSoC drafting as early as January",
+  //       "Best if: you already code and want maximum exposure fast",
+  //     ],
+  //   },
+  // },
 
   {
     type: "tech",
@@ -161,10 +161,10 @@ export const slides = [
     eyebrow: "Tools of the Trade",
     title: "What You'll Learn",
     sections: [
-      {
-        heading: "Regular Track",
-        items: ["git", "github", "html5", "css3", "tailwindcss", "python", "fastapi", "javascript", "react", "mysql"],
-      },
+      // {
+      //   heading: "Regular Track",
+      //   items: ["git", "github", "html5", "css3", "tailwindcss", "python", "fastapi", "javascript", "react", "mysql"],
+      // },
       {
         heading: "Fast Track (Regular + More)",
         items: ["git", "github", "html5", "css3", "tailwindcss", "javascript", "python", "fastapi", "mysql", "react", "nextdotjs", "nodedotjs", "express", "django", "mongodb", "postgresql", "cloud"],
@@ -222,7 +222,7 @@ export const slides = [
     title: "Your Next Steps",
     steps: [
       { n: "1", title: "Create your GitHub account", desc: "The single most important account you'll set up this year." },
-      { n: "2", title: "Star & explore DoxDock", desc: "Get comfortable reading a real, live open source repository." },
+      { n: "2", title: "Open, Explore & Learn", desc: "Get comfortable reading a real, live open source repository." },
       { n: "3", title: "Block Sept. Week 2", desc: "Reserve time for our Git & GitHub Workshop — hands-on, no prior experience needed." },
       { n: "4", title: "Set a Hacktoberfest reminder", desc: "Registration opens mid-September — don't miss the window." },
     ],

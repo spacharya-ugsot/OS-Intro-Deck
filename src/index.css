@@ -356,15 +356,15 @@ body {
 .tech-section-label { color: var(--gray-2); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; }
 .tech-grid { display: flex; flex-wrap: wrap; gap: 10px; }
 .tech-tile { display: flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 8px 16px 8px 10px; }
-.tech-logo-chip { width: 26px; height: 26px; border-radius: 50%; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; color: var(--white); }
-.tech-name { font-size: 13px; font-weight: 600; color: #dcdce0; text-transform: capitalize; }
+.tech-logo-chip { width: 55px; height: 55px; border-radius: 50%; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; color: var(--white); }
+.tech-name { font-size: 15px; font-weight: 600; color: #dcdce0; text-transform: capitalize; }
 
 /* ============================= TIMELINE ============================= */
 
 .timeline-row { display: flex; gap: 4px; }
 .timeline-item { position: relative; flex: 1; padding: 0 14px; }
 .timeline-item:first-child { padding-left: 0; }
-.timeline-connector { position: absolute; top: 30px; right: -4px; width: 100%; height: 1px; background: var(--border); }
+.timeline-connector { position: absolute; top: 50px; right: -35px; width: 100%; height: 1px; background: var(--border); }
 .timeline-period { color: var(--red); font-weight: 700; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; }
 .timeline-icon { width: 40px; height: 40px; border-radius: 50%; background: var(--red-dim); color: var(--red); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; position: relative; z-index: 2; }
 .timeline-title { font-weight: 700; font-size: 16px; margin-bottom: 8px; }

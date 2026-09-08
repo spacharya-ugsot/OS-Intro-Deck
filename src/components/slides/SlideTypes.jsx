@@ -227,7 +227,7 @@ export function TechSlide({ s }) {
           <div className="tech-grid">
             {sec.items.map((it) => (
               <div className="tech-tile" key={it}>
-                <div className="tech-logo-chip"><TechIcon name={it} size={20} /></div>
+                <div className="tech-logo-chip"><TechIcon name={it} size={30} /></div>
                 <span className="tech-name">{it}</span>
               </div>
             ))}
