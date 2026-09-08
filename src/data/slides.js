@@ -94,54 +94,6 @@ export const slides = [
   },
 
   {
-    type: "terms",
-    watermark: "REPO",
-    label: "Key Terms",
-    eyebrow: "Speak the Language",
-    title: "Key Terms & Vocabulary",
-    groups: [
-      {
-        heading: "Repository & Fork",
-        terms: [
-          { icon: "folder", term: "Repository", def: "A central place where a project's code is stored and managed — usually on GitHub, GitLab, or Bitbucket." },
-          { icon: "gitfork", term: "Fork", def: "Your own personal copy of a repository, free to modify and experiment with — no risk to the original." },
-        ],
-      },
-      {
-        heading: "Issue & Pull Request",
-        terms: [
-          { icon: "bug", term: "Issue", def: "A tracked problem, bug, or feature request — anyone can open one to flag work that's needed." },
-          { icon: "gitpr", term: "Pull Request", def: "A formal request asking maintainers to review and merge your changes into the codebase." },
-        ],
-      },
-    ],
-    roles: {
-      heading: "The Roles Around You",
-      note: "Everyone starts as a Contributor. Consistency and quality are what move you up.",
-      items: [
-        { icon: "users", role: "Contributor", desc: "Anyone who improves the project through code, docs, design, or discussion" },
-        { icon: "star", role: "Core Member", desc: "A trusted contributor with elevated privileges, earned through sustained work" },
-        { icon: "shield", role: "Maintainer", desc: "Owns the project's direction" },
-      ],
-    },
-  },
-
-  {
-    type: "steps",
-    watermark: "README",
-    label: "The Contribution Workflow",
-    eyebrow: "The Contribution Workflow",
-    title: "How to Navigate an Unfamiliar Repository",
-    steps: [
-      { icon: "book", title: "Read the README", desc: "Understand what the project does, and run it locally so you experience the problem first-hand." },
-      { icon: "list", title: "Review the Issues", desc: "Filter by \u201cgood first issue\u201d or \u201chelp wanted\u201d, then choose one that is small and clearly defined." },
-      { icon: "message", title: "Claim the Issue", desc: "Comment to say you'd like to work on it. This avoids duplicated effort and signals intent." },
-      { icon: "bookmark", title: "Read CONTRIBUTING.md", desc: "Setup steps, coding standards, and the PR process — your reference guide for that repo." },
-    ],
-    callout: "Guiding principle: understand the problem before changing any code. A newcomer who reads carefully and asks good questions is more valuable than one who guesses.",
-  },
-
-  {
     type: "rules",
     watermark: "HIRED",
     label: "Getting Hired",
@@ -288,12 +240,69 @@ export const slides = [
     ],
   },
 
+
+
+
+  
+  {
+    type: "terms",
+    watermark: "REPO",
+    label: "Key Terms",
+    eyebrow: "Speak the Language",
+    title: "Key Terms & Vocabulary",
+    groups: [
+      {
+        heading: "Repository & Fork",
+        terms: [
+          { icon: "folder", term: "Repository", def: "A central place where a project's code is stored and managed — usually on GitHub, GitLab, or Bitbucket." },
+          { icon: "gitfork", term: "Fork", def: "Your own personal copy of a repository, free to modify and experiment with — no risk to the original." },
+        ],
+      },
+      {
+        heading: "Issue & Pull Request",
+        terms: [
+          { icon: "bug", term: "Issue", def: "A tracked problem, bug, or feature request — anyone can open one to flag work that's needed." },
+          { icon: "gitpr", term: "Pull Request", def: "A formal request asking maintainers to review and merge your changes into the codebase." },
+        ],
+      },
+    ],
+    roles: {
+      heading: "The Roles Around You",
+      note: "Everyone starts as a Contributor. Consistency and quality are what move you up.",
+      items: [
+        { icon: "users", role: "Contributor", desc: "Anyone who improves the project through code, docs, design, or discussion" },
+        { icon: "star", role: "Core Member", desc: "A trusted contributor with elevated privileges, earned through sustained work" },
+        { icon: "shield", role: "Maintainer", desc: "Owns the project's direction" },
+      ],
+    },
+  },
+
+  {
+    type: "steps",
+    watermark: "README",
+    label: "The Contribution Workflow",
+    eyebrow: "The Contribution Workflow",
+    title: "How to Navigate an Unfamiliar Repository",
+    steps: [
+      { icon: "book", title: "Read the README", desc: "Understand what the project does, and run it locally so you experience the problem first-hand." },
+      { icon: "list", title: "Review the Issues", desc: "Filter by \u201cgood first issue\u201d or \u201chelp wanted\u201d, then choose one that is small and clearly defined." },
+      { icon: "message", title: "Claim the Issue", desc: "Comment to say you'd like to work on it. This avoids duplicated effort and signals intent." },
+      { icon: "bookmark", title: "Read CONTRIBUTING.md", desc: "Setup steps, coding standards, and the PR process — your reference guide for that repo." },
+    ],
+    callout: "Guiding principle: understand the problem before changing any code. A newcomer who reads carefully and asks good questions is more valuable than one who guesses.",
+  },
+
+
+
+
+
+
   {
     type: "closing",
     watermark: "ASK",
     label: "Q&A",
     kicker: "Questions?",
-    sub: "Ask now, or drop it in the batch channel any time.",
+    sub: "Ask now",
   },
 
   {
