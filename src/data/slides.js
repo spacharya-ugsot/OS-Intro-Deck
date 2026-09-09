@@ -167,7 +167,7 @@ export const slides = [
       // },
       {
         heading: "Fast Track (Regular + More)",
-        items: ["git", "github", "html5", "css3", "tailwindcss", "javascript", "python", "fastapi", "mysql", "react", "nextdotjs", "nodedotjs", "express", "django", "mongodb", "postgresql", "cloud"],
+        items: ["git", "github", "html5", "css3", "tailwindcss", "javascript", "python", "fastapi", "mysql", "react", "nextJs", "nodeJs", "express", "django", "mongodb", "postgresql", "cloud"],
       },
     ],
   },
@@ -179,10 +179,10 @@ export const slides = [
     title: "Your Learning Roadmap, at a Glance",
     lede: "A confident, active open source contributor by May.",
     stops: [
-      { period: "Sep", icon: "code", title: "Foundations", desc: "Git, GitHub, HTML/CSS, Tailwind — tool up before the season starts" },
-      { period: "Oct\u2013Dec", icon: "gitmerge", title: "First Contributions", desc: "Hacktoberfest, 24 PRs, Winter of Code — your first real PRs merged" },
-      { period: "Jan\u2013Mar", icon: "layers", title: "Specialization", desc: "FastAPI, JavaScript, React — deepen your stack, keep contributing" },
-      { period: "Apr\u2013May", icon: "rocket", title: "Flagship Programs", desc: "GSoC, LFX, Outreachy, Summer of Bitcoin — aim for paid mentorships" },
+      { period: "Sep", icon: "code", title: "Foundations", desc: "Git, GitHub, HTML/CSS, Tailwind,JS, Python — tool up before the season starts" },
+      { period: "Oct\u2013Dec", icon: "gitmerge", title: "First Contributions & Specialization", desc: "Hacktoberfest, 24 PRs, Winter of Code — your first real PRs merged" },
+      // { period: "Jan\u2013Mar", icon: "layers", title: "Specialization", desc: "FastAPI, JavaScript, React — deepen your stack, keep contributing" },
+      { period: "Jan\u2013May", icon: "rocket", title: "Flagship Programs", desc: "GSoC, LFX, Outreachy, Summer of Bitcoin — aim for paid mentorships" },
     ],
   },
 
