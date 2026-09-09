@@ -39,7 +39,7 @@ export const slides = [
     type: "twocol-compare",
     label: "What is Open Source",
     eyebrow: "Two Common Mix-Ups",
-    title: "Open vs. Closed — and Open ≠ Free",
+    title: "Open vs. Closed ",
     lede: "The single most common misconception new contributors carry in.",
     colA: {
       title: "Open Source",
@@ -62,7 +62,7 @@ export const slides = [
       ],
     },
     footnote:
-      "A project can be open source and still be sold commercially — or free to use and still be closed source. \u201cOpen\u201d is about access to the code; \u201cfree\u201d is about price. Always check both separately.",
+      "A project can be open source and still be sold commercially — or free to use and still be closed source.",
   },
 
   {
